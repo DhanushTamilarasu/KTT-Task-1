@@ -1,0 +1,131 @@
+body{
+    background-image:url(bimage.jpg);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size:cover; 
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body h1{
+    color: rgb(238, 234, 234);
+    text-align: center;
+    text-decoration: double;
+}
+.para{
+    margin-top: 40px;
+    margin-left: 25%;
+    align-items: center;
+    background-image: url(Blackimages.jpeg);
+    background-repeat: no-repeat;
+    height: 470px;
+    width: 600px;
+    opacity: .6;
+    color: rgb(255, 249, 249);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color:rgb(247, 245, 245) ;
+}
+.para,p{
+  color: rgb(249, 249, 5);
+}
+.video{
+    margin-top: 40px;
+    margin-left: 20%;
+    align-items: center;
+    background-image: url(Blackimages.jpeg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 700px;
+    opacity: .5;
+    text-align: justify;
+    color: rgb(251, 248, 248);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color:rgb(247, 245, 245) ;
+}
+.video,p{
+  color: rgb(245, 245, 236);
+}
+.serv{
+    margin-top: 40px;
+    margin-left: 11%;
+    align-items: center;
+    background-image: url(Blackimages.jpeg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 900px;
+    opacity: .6;
+    color: rgb(12, 12, 12);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color:rgb(244, 14, 14) ;
+}
+.serv,p,h3{
+  color: rgb(249, 249, 5);
+}
+.about{
+    margin-top: 40px;
+    margin-left: 11%;
+    align-items: center;
+    background-image: url(Blackimages.jpeg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 900px;
+    opacity: .6;
+    color: rgb(12, 12, 12);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    color:rgb(244, 14, 14) ;
+}
+.about,p,h3{
+  color: rgb(249, 249, 5);
+}
+
+.icon-bar {
+  width: 100%;
+  overflow: auto;
+  background-color: transparent;
+}
+
+.icon-bar a {
+  float:inline-start;
+  text-decoration: none;
+  width: 20%;
+  text-align: center;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+  color: rgb(9, 9, 9);
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+background-color: #26f7d0;
+  opacity: .3px;
+}
+
+.active {
+  background-image: linear-gradient(to left, blue, white, violet);
+}
+.icon-bar img{
+    height: 20px;
+    width: 25px;
+}
+h1,h3,h5{
+  color: rgb(10, 10, 10);
+}
+.logo{
+  margin-left: 42%;
+  image-resolution: 200px;
+  font-size:x-larger;
+  width: 11.7%;
+  white-space: 100px;
+  background-color: aqua;
+}
